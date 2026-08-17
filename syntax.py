@@ -1,7 +1,8 @@
 # We should use indentation for a block of code
 # must use same number of space in a same block
-
-if 5>3:
-  print("Five is greater than Three")
-  print("Hey,Good job!")
+num = 12
+if num > 5:
+  print("{} is greater than Five",format(num))
+else:
+  print("{num} is less than Five")
   
